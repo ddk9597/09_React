@@ -26,7 +26,9 @@ const FucntionEx = () => {
     <>
       <h2 className='red'>함수형 컴포넌트 입니다~</h2>
       <hr/>
-      <ClickCount/>
+      {/* 만든 함수(펑션)을 표기하는 방법 */}
+      <ClickCount/> 
+      <ClickCount></ClickCount>
     </>
   );
 }
